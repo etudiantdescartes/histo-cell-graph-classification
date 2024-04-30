@@ -1,7 +1,6 @@
 This project aims at trying to classify histological images in one of two classes: begnin and malignant tumors, by representing them as graphs with cells as nodes, and classifying them with a graph neural network.
 The information encoded into each of these node can be color or morphological-based characteristics.
-Once the nodes are created, several graph construction methods can be used, the most common ones are the the relative neighborhood graph (a subgraph of Delau-
-nay triangulation) and a simple distance threshold, or radius graph, consisting of linking each node to every other node within a certain distance.
+Once the nodes are created, several graph construction methods can be used, the most common ones are the the relative neighborhood graph (a subgraph of Delaunay triangulation) and a simple distance threshold, or radius graph, consisting of linking each node to every other node within a certain distance.
 
 # Installation
 
